@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='hue-python-rgb-converter',
     description='RGB conversion tool written in Python for Philips Hue',
     author='Benjamin Knight',
     version="1.0",
-    packages=find_packages(),
-    include_package_data=False,
+    packages=('rgb_xy'),
     install_requires=[],
 )
